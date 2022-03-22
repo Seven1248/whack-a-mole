@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    height:100vh;
+    text-align: center;
+  }
+  .content{
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .cell{
+    background: white;
+    border:5px solid #6bd1eb;
+    cursor: url('candy.png'),pointer;   /* 改變鼠標樣式 */
+    width: 100px;
+    height:100px;
+    
+  }
+  .control{
+    max-width:350px;
+  }
+  .msg{
+    margin:5px auto;
+    display: flex;
+    justify-content: space-around;
+    line-height: 2rem;
+  }
+  button,span{
+    width:33%;
+  }
+
+  img{
+      width: 100px;
+      height: 100px;
+     
+      border-radius: 10px; 
+      object-fit: cover;
+      object-position:50% 15%;
+  }

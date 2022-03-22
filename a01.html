@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>餵貝斯吃棒棒</title>
+    <link rel="stylesheet" href="a01.css">
+    
+</head>
+
+<body>
+
+    <div class="content">
+        <!-- (div.row>img:s*3)*3+div.control>(div.msg>span#time+btn+span#combo)+hr+b+p+hr -->
+        <div class="row">
+            <img src="white.png" class="cell" title="white" onclick="getcount(0)"/>
+            <img src="white.png" class="cell" title="white" onclick="getcount(1)"/>
+            <img src="white.png" class="cell" title="white" onclick="getcount(2)"/>
+          </div>
+          <div class="row">
+            <img src="white.png" class="cell" title="white" onclick="getcount(3)"/>
+            <img src="white.png" class="cell" title="white" onclick="getcount(4)"/>
+            <img src="white.png" class="cell" title="white" onclick="getcount(5)"/>
+          </div>
+          <div class="row">
+            <img src="white.png" class="cell" title="white" onclick="getcount(6)"/>
+            <img src="white.png" class="cell" title="white" onclick="getcount(7)"/>
+            <img src="white.png" class="cell" title="white" onclick="getcount(8)"/>
+          </div>
+        <div class="control">
+            <div class="msg">
+                <span id="time">剩餘時間：0s</span>
+                <button>遊戲開始</button>
+                <span id="combo">成績分數：0</span>
+            </div>
+            <hr />
+            <b>遊戲說明</b>
+            <p>餵黑暗大法師的遊戲，當貝斯睜開眼睛之後，請在3秒內滿足她，否則她會生氣氣喔（滿分 100)</p>
+            <hr />
+        </div>
+    </div>
+
+
+</body>
+<script src="a01.js"></script>
+<!-- 參考網址  https://summer10920.github.io/2020/04-22/js-sampleclass-4/ -->
+</html>
